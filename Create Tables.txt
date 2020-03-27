@@ -1,0 +1,39 @@
+CREATE TABLE Login(User varchar(15), Password varchar(10), Type varchar(15), Name varchar(20), Designation varchar(20), Remarks varchar(50));
+CREATE TABLE Supplier(Supplier_ID varchar(20) Primary Key, Date Date, Name varchar(30), Company varchar(20), Contact_Person varchar(30), Address varchar(50), Office_No varchar(15), Mobile_No varchar(15), Other_No varchar(15), Fax_No varchar(15), Total_Bills_Amount int, Total_Due int, Remarks varchar(50));
+CREATE TABLE Customer(Customer_ID varchar(20) Primary Key, Date Date, Name varchar(30), CNIC_No varchar(15), Address varchar(50), Occupation varchar(30), Phone_No varchar(15), Mobile_No varchar(15), Other_No varchar(15), Total_Bills_Amount int, Total_Due int, Remarks varchar(50));
+CREATE TABLE Sales(Invoice_No varchar(20) Primary Key, Date Date, Salesman varchar(20), Customer_ID varchar(20), Grand_Total int, Discount int, Payment_Mode varchar(15), Amount_Paid int, Amount_Due int, Remarks varchar(50), CONSTRAINT fk_cust_id FOREIGN KEY (Customer_ID) REFERENCES Customer(Customer_ID));
+CREATE TABLE G_Sale(Invoice_No varchar(20) Primary Key, Date Date, Customer varchar(30), Salesman varchar(20),Product varchar(30), Description varchar(30), Quantity int, Price int, Total int, Remarks varchar(50));
+CREATE TABLE Purchase_Order(PO_No varchar(20) Primary Key, Date Date, Supplier_ID varchar(20), Delivery_Date Date, Remarks varchar(50), CONSTRAINT fk_supp_id1 FOREIGN KEY (Supplier_ID) REFERENCES Supplier(Supplier_ID));
+CREATE TABLE Stock(Product_ID varchar(20) Primary Key, Date Date, Product varchar(30), Product_Type varchar(20), Product_Size varchar(10), Company varchar(30), Stock_In_Hand int, Description varchar(25),Price_per_unit int, ReOrder_Level int, Remarks varchar(50));
+    
+CREATE TABLE Expenditure(TID varchar(20) Primary Key, Date Date, Expense_Type varchar(20),Supplier varchar(30), Payment_Mode varchar(20),Particulars varchar(30),Amount int,Remarks varchar(50));
+CREATE TABLE Income(TID varchar(20) Primary Key, Date Date, Income_Type varchar(20),Customer varchar(30),Payment_Mode varchar(20),Particulars varchar(30), Amount int,Remarks varchar(50));
+    
+CREATE TABLE PO_Details(TID varchar(20) Primary Key, PO_No varchar(20), Product varchar(20), Product_Type varchar(20), Product_Size varchar(10), Quantity int, Description varchar(30), CONSTRAINT fk_PO1_No FOREIGN KEY (PO_No) REFERENCES Purchase_Order(PO_No));
+CREATE TABLE Supplier_Account(TID varchar(20) Primary Key, Supplier_ID varchar(20), Date Date, PO_No varchar(20), Total_Amount int, Payment_Mode varchar(15), Paid_Amount int, Due_Amount int, Remarks varchar(50), CONSTRAINT fk_supp_id2 FOREIGN KEY (Supplier_ID) REFERENCES Supplier(Supplier_ID), CONSTRAINT fk_PO_No FOREIGN KEY (PO_No) REFERENCES Purchase_Order(PO_No));
+CREATE TABLE Invoice(TID varchar(20) Primary Key, Invoice_No varchar(20), Product_ID varchar(20), Quantity int, Price int, Net_Total int, CONSTRAINT fk_Inv_No FOREIGN KEY (Invoice_No) REFERENCES Sales(Invoice_No), CONSTRAINT fk_prod_id FOREIGN KEY (Product_ID) REFERENCES Stock(Product_ID));
+CREATE TABLE Customer_Account(TID varchar(20) Primary Key, Customer_ID varchar(20), Date Date, Invoice_No varchar(20), Total_Amount int, Payment_Mode varchar(15), Amount_Paid int, Amount_Due int, Remarks varchar(50), CONSTRAINT fk_Inv1_No FOREIGN KEY (Invoice_No) REFERENCES Sales(Invoice_No));
+CREATE TABLE Receivings(TID varchar(20) Primary Key, Date Date, PO_No varchar(20), Product_ID varchar(20), Quantity int, Price int, Price_per_unit int, Remarks varchar(50), CONSTRAINT fk_PO_No1 FOREIGN KEY (PO_No) REFERENCES Purchase_Order(PO_No), CONSTRAINT fk_prod_id3 FOREIGN KEY (Product_ID) REFERENCES Stock(Product_ID));
+
+    
+INSERT INTO Login values('admin','admin','Admin','Admin User','Administration','-');
+INSERT INTO Login values('manager','manager','Manager','Manager User','Management','-');
+INSERT INTO Login values('salesman','salesman','Salesman','Sales User','Sales Dept','-');
+
+INSERT INTO `stock` VALUES ('P2007829151035','2007-08-29','Diyar 404','LAMINATION','8x4','-',85,'Premier',1050,25,'-');
+INSERT INTO `stock` VALUES ('P2007829151213','2007-08-29','Masa 222','LAMINATION','8x4','-',75,'Premier',1050,15,'-');
+INSERT INTO `stock` VALUES ('P2007829151533','2007-08-29','Classic Mix','LAMINATION','-','-',125,'Premier',1125,10,'-');
+INSERT INTO `stock` VALUES ('P2007829151745','2007-08-29','Diyar 233','LAMINATION','-','-',18,'PPI',1040,10,'-');
+INSERT INTO `stock` VALUES ('P2007829151940','2007-08-29','Masa 350','LAMINATION','-','-',22,'PPI',1040,15,'-');
+INSERT INTO `stock` VALUES ('P2007829152043','2007-08-29','Diyar 350','LAMINATION','-','-',12,'PPI',1040,15,'-');
+INSERT INTO `stock` VALUES ('P2007829152357','2007-08-29','Brown','WINBOARD','8x4',,'-'88,'Alpha wood',860,15,'-');
+INSERT INTO `stock` VALUES ('P200782915252','2007-08-29','Masawa','WINBOARD','8x4','-',5,'Alpha Wood',1080,15,'-');
+INSERT INTO `stock` VALUES ('P2007829152550','2007-08-29','Simble WINBOARD','WINBOARD','8x4','-',17,'-',775,10,'-');
+INSERT INTO `stock` VALUES ('P2007829152653','2007-08-29','LASANI 2.5','LASANI','8x4','-',60,'Imported',313,10,'-');
+INSERT INTO `stock` VALUES ('P2007829152953','2007-08-29','LASANI 5.5 mm','LASANI','8x4','-',20,'Imported',500,5,'-');
+INSERT INTO `stock` VALUES ('P2007829153041','2007-08-29','LASANI 8 mm','LASANI','8x4','-',15,'Imported',800,5,'-');
+INSERT INTO `stock` VALUES ('P2007829153229','2007-08-29','LASANI 11 mm','LASANI','8x4','-',3,'Imported',980,5,'-');
+INSERT INTO `stock` VALUES ('P2007829153451','2007-08-29','LASANI 15 mm','LASANI','8x4','-',3,'Imported',1350,5,'-');
+INSERT INTO `stock` VALUES ('P2007829153626','2007-08-29','LASANI 16 mm','LASANI','8x4','-',30,'A Grade',1200,10,'-');
+INSERT INTO `stock` VALUES ('P20078291554','2007-08-29','Diyar 233','LAMINATION','8 x 4','-',45,'Premier Formica Peshawer',1050,25,'-');
+INSERT INTO `stock` VALUES ('P200782915727','2007-08-29','Diyar 350','LAMINATION','8x4','-',6,'Premier Formica Peshawer',1050,25,'-');

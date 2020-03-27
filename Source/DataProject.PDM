@@ -1,0 +1,619 @@
+[Root]
+Most Recent Package=Standard Setup Package
+
+
+[Package|AdEeL|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\NH\Setup
+
+[Package|AdEeL|Configure DAO ISAMs]
+Applicable=No
+
+[Package|AdEeL|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|AdEeL|Files Found]
+
+[Package|AdEeL|Files Released]
+CRAXDRT.DLL=
+
+[Package|AdEeL|Missing Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|AdEeL|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\msadodc.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|AdEeL|Files Added]
+h:\noori halal\duas.exe=
+h:\noori halal\labels.xls=
+h:\noori halal\db.mdb=
+
+[Package|AdEeL|Files Removed]
+c:\program files\common files\system\ado\msado20.tlb=
+
+[Package|AdEeL|Files In Project]
+H:\Noori Halal\Noori.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=No
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\msadodc.ocx=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+H:\Noori Halal\DUAS.EXE=Yes
+H:\Noori Halal\Labels.xls=Yes
+H:\Noori Halal\DB.mdb=Yes
+C:\WINDOWS\system32\Crystl32.OCX=Yes
+C:\WINDOWS\system32\crpe32.dll=Yes
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=Yes
+
+[Package|AdEeL|Configure Registry Files]
+Applicable=No
+
+[Package|AdEeL|Configure Remote Servers]
+Applicable=No
+
+[Package|AdEeL|Install Locations]
+H:\Noori Halal\Noori.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msadodc.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+H:\Noori Halal\DUAS.EXE=$(AppPath)
+H:\Noori Halal\Labels.xls=$(AppPath)
+H:\Noori Halal\DB.mdb=$(AppPath)
+C:\WINDOWS\system32\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\crpe32.dll=$(WinSysPath)
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=$(WinSysPath)
+
+[Package|AdEeL|Configure Shared Files]
+Applicable=Yes
+H:\Noori Halal\Noori.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+H:\Noori Halal\DUAS.EXE=Yes
+H:\Noori Halal\Labels.xls=Yes
+H:\Noori Halal\DB.mdb=Yes
+
+[Package|AdEeL|Distribution]
+Type=single
+Size=
+Title=ORDER PROCESSIN SYSTEM
+
+[Package|AdEeL|Package]
+PackageFolder=H:\Noori Halal\Setup
+ProjectFolder=H:\Noori Halal
+ServerSideCab=
+File1=H:\Noori Halal\Setup\setup.exe
+File2=H:\Noori Halal\Setup\Setup.Lst
+File3=H:\Noori Halal\Setup\Noori.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|AdEeL|IconGroups]
+Group0=ORDER PROCESSIN SYSTEM
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|AdEeL|ORDER PROCESSIN SYSTEM]
+Icon1=Noori.exe
+Title1=ORDERS
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=DUAS.EXE
+Title2=Duas
+StartIn2=$(AppPath)
+Key2=Icon2
+Icon3=Labels.xls
+Title3=Labels
+StartIn3=$(AppPath)
+Key3=Icon3
+
+
+[Package|Standard Setup Package|Accounts System]
+Icon1=ASDSS.exe
+Title1=ASDSS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package|MICRODILL COMPUTERS]
+Icon1=MDC.exe
+Title1=MDC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Work Area\New Alkhayaam\Setup
+
+[Package|Standard Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package|Files Found]
+CR9Deploy.reg=H:\Work Area\3rd Year BCIS\Tanju\Source\DLL's Required 4Setup\CR9Deploy.reg
+u2dapp.dll=C:\Work Area\New Alkhayaam\Dlls Req\u2dapp.dll
+unicows.dll=C:\Work Area\New Alkhayaam\Dlls Req\unicows.dll
+u2dpost.dll=C:\Work Area\New Alkhayaam\Dlls Req\u2dpost.dll
+u2fcr.dll=C:\Work Area\New Alkhayaam\Dlls Req\u2fcr.dll
+u2fsepv.dll=C:\Work Area\New Alkhayaam\Dlls Req\u2fsepv.dll
+u2fxml.dll=C:\Work Area\New Alkhayaam\Dlls Req\u2fxml.dll
+
+[Package|Standard Setup Package|Files Released]
+RptInv.rpt=
+TopSupplier.rpt=
+TopBuyer.rpt=
+Suppliers.rpt=
+Salary.rpt=
+IncomePie.rpt=
+Income.rpt=
+ExpPie.rpt=
+Expenditure.rpt=
+Employees.rpt=
+Buyer.rpt=
+Attendance.rpt=
+
+[Package|Standard Setup Package|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado26.tlb=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxdrt9.dll=
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crviewer9.dll=
+I:\WINNT\system32\MSSTDFMT.DLL=
+C:\Work Area\New Alkhayaam\Source\Memory  Cleaner.exe=
+
+[Package|Standard Setup Package|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+I:\WINNT\system32\MSCOMCTL.OCX=
+I:\WINNT\system32\Mscomct2.ocx=
+I:\WINNT\system32\scrrun.dll=
+C:\WINDOWS\system32\mscomct2.ocx=
+
+[Package|Standard Setup Package|Files Added]
+c:\work area\new alkhayaam\source\cursor.ani=
+c:\work area\new alkhayaam\source\customer.rpt=
+c:\work area\new alkhayaam\source\customeracct.rpt=
+c:\work area\new alkhayaam\source\invoice.rpt=
+c:\work area\new alkhayaam\source\purchase_order.rpt=
+c:\work area\new alkhayaam\source\receivings.rpt=
+c:\work area\new alkhayaam\source\sales.rpt=
+c:\work area\new alkhayaam\source\stock.rpt=
+c:\work area\new alkhayaam\source\supplier.rpt=
+c:\work area\new alkhayaam\source\supplieracct.rpt=
+c:\work area\new alkhayaam\source\memory  cleaner.exe=
+c:\work area\new alkhayaam\source\duas.exe=
+c:\work area\new alkhayaam\source\download.bat=
+c:\work area\new alkhayaam\source\home.bat=
+c:\work area\new alkhayaam\source\upload.bat=
+C:\Work Area\New Alkhayaam\Source\Expense.rpt=
+C:\Work Area\New Alkhayaam\Source\GSaleInv.rpt=
+C:\Work Area\New Alkhayaam\Source\Income.rpt=
+
+[Package|Standard Setup Package|Files Removed]
+c:\program files\common files\system\ado\msado26.tlb=
+
+[Package|Standard Setup Package|Files In Project]
+C:\Program Files\Common Files\System\ado\msado26.tlb=No
+C:\Work Area\New Alkhayaam\Source\AK_INV.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\crystalreportviewers\ActiveXViewer\crviewer9.dll=Yes
+C:\Program Files\Crystal Decisions\Report Designer Component\craxdrt9.dll=Yes
+C:\Work Area\New Alkhayaam\Dlls Req\unicows.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\crtowords_en.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\ufmanager.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2l2000.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lcom.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ldts.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lexch.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lfinra.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u252000.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u25dts.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u25samp1.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\sscsdk80.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\Implode.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\crqe.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\crdb_ado.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\crdb_dao.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\crdb_odbc.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\querybuilder.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\exlate32.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_rtf.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\ExportModeller.dll=Yes
+\Program Files\Common Files\Crystal Decisions\2.0\bin\crtslv.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_wordw.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_xls.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_pdf.dll=Yes
+C:\Work Area\New Alkhayaam\Dlls Req\u2fcr.dll=Yes
+C:\Work Area\New Alkhayaam\Dlls Req\u2fsepv.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\u2ftext.dll=Yes
+C:\Work Area\New Alkhayaam\Dlls Req\u2fxml.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\u2ddisk.dll=Yes
+C:\Work Area\New Alkhayaam\Dlls Req\u2dpost.dll=Yes
+C:\Work Area\New Alkhayaam\Dlls Req\u2dapp.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\keycode.dll=Yes
+\Program files\common files\Crystal Decisions\2.0\bin\CR9DEPLOY.REG=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Work Area\New Alkhayaam\Source\cursor.ani=Yes
+C:\Work Area\New Alkhayaam\Source\Customer.rpt=Yes
+C:\Work Area\New Alkhayaam\Source\CustomerAcct.rpt=Yes
+C:\Work Area\New Alkhayaam\Source\Invoice.rpt=Yes
+C:\Work Area\New Alkhayaam\Source\Purchase_Order.rpt=Yes
+C:\Work Area\New Alkhayaam\Source\Receivings.rpt=Yes
+C:\Work Area\New Alkhayaam\Source\Sales.rpt=Yes
+C:\Work Area\New Alkhayaam\Source\Stock.rpt=Yes
+C:\Work Area\New Alkhayaam\Source\Supplier.rpt=Yes
+C:\Work Area\New Alkhayaam\Source\SupplierAcct.rpt=Yes
+C:\Work Area\New Alkhayaam\Source\Memory  Cleaner.exe=Yes
+C:\Work Area\New Alkhayaam\Source\DUAS.EXE=Yes
+C:\Work Area\New Alkhayaam\Source\Download.bat=Yes
+C:\Work Area\New Alkhayaam\Source\Home.bat=Yes
+C:\Work Area\New Alkhayaam\Source\Upload.bat=Yes
+C:\Work Area\New Alkhayaam\Source\Expense.rpt=Yes
+C:\Work Area\New Alkhayaam\Source\GSaleInv.rpt=Yes
+C:\Work Area\New Alkhayaam\Source\Income.rpt=Yes
+
+[Package|Standard Setup Package|Configure Registry Files]
+Applicable=Yes
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\CR9Deploy.reg=Register
+H:\Work Area\3rd Year BCIS\Tanju\Source\DLL's Required 4Setup\CR9Deploy.reg=Register
+\Program files\common files\Crystal Decisions\2.0\bin\CR9DEPLOY.REG=Register
+
+[Package|Standard Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package|Install Locations]
+F:\Work Area\Today\MDC\MDC VB MySQL CR9\MDC.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Crystal Decisions\2.0\crystalreportviewers\ActiveXViewer\crviewer9.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Crystal Decisions\Report Designer Component\craxdrt9.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\WINDOWS\system32\unicows.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crtowords_en.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\ufmanager.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2l2000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lcom.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ldts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lexch.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lfinra.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u252000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u25dts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u25samp1.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscsdk80.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\Implode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crqe.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_ado.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_dao.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_odbc.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\querybuilder.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\exlate32.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_rtf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\ExportModeller.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crtslv.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_wordw.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_xls.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_pdf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Documents and Settings\AdEeL\Desktop\u2fcr.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Documents and Settings\AdEeL\Desktop\u2fsepv.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ftext.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Documents and Settings\AdEeL\Desktop\u2fxml.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ddisk.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Documents and Settings\AdEeL\Desktop\u2dpost.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Documents and Settings\AdEeL\Desktop\u2dapp.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\keycode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Work Area\Today\MDC\MDC VB MySQL CR9\RptInv.rpt=$(AppPath)
+H:\MDC\MDC VB MySQL CR9\MDC.exe=$(AppPath)
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\crviewer9.dll=$(WinSysPath)
+C:\Program Files\Common Files\Crystal Decisions\2.0\bin\craxdrt9.dll=$(WinSysPath)
+H:\MDC\MDC VB MySQL CR9\RptInv.rpt=$(AppPath)
+H:\Work Area\3rd Year BCIS\Tanju\Source\ASDSS.exe=$(AppPath)
+I:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+I:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+I:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+I:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+I:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+I:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+I:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+I:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+I:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+I:\WINNT\system32\scrrun.dll=$(WinSysPath)
+I:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+I:\WINNT\system32\MSDATREP.OCX=$(WinSysPath)
+I:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+I:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+I:\WINNT\system32\MSDATLST.OCX=$(WinSysPath)
+I:\WINNT\system32\MSHFLXGD.OCX=$(WinSysPath)
+I:\WINNT\system32\MSMAPI32.OCX=$(WinSysPath)
+I:\WINNT\system32\Mscomct2.ocx=$(WinSysPath)
+I:\WINNT\system32\SYSINFO.OCX=$(WinSysPath)
+I:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+I:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+I:\Program Files\Common Files\Crystal Decisions\2.0\crystalreportviewers\ActiveXViewer\crviewer9.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Crystal Decisions\Report Designer Component\craxdrt9.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+H:\Work Area\3rd Year BCIS\Tanju\Source\DLL's Required 4Setup\UNICOWS.DLL=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\crtowords_en.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\ufmanager.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2l2000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lcom.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ldts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lexch.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lfinra.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\u252000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\u25dts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\u25samp1.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\sscsdk80.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\Implode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\crqe.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_ado.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_dao.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\crdb_odbc.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\querybuilder.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\exlate32.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_rtf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\ExportModeller.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\crtslv.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_wordw.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_xls.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\crxf_pdf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+H:\Work Area\3rd Year BCIS\Tanju\Source\DLL's Required 4Setup\u2fcr.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+H:\Work Area\3rd Year BCIS\Tanju\Source\DLL's Required 4Setup\u2fsepv.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ftext.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+H:\Work Area\3rd Year BCIS\Tanju\Source\DLL's Required 4Setup\u2fxml.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ddisk.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+H:\Work Area\3rd Year BCIS\Tanju\Source\DLL's Required 4Setup\u2dpost.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+H:\Work Area\3rd Year BCIS\Tanju\Source\DLL's Required 4Setup\u2dapp.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Common Files\Crystal Decisions\2.0\bin\keycode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+I:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+H:\Work Area\3rd Year BCIS\Tanju\Source\Attendance.rpt=$(AppPath)
+H:\Work Area\3rd Year BCIS\Tanju\Source\Buyer.rpt=$(AppPath)
+H:\Work Area\3rd Year BCIS\Tanju\Source\Employees.rpt=$(AppPath)
+H:\Work Area\3rd Year BCIS\Tanju\Source\Expenditure.rpt=$(AppPath)
+H:\Work Area\3rd Year BCIS\Tanju\Source\ExpPie.rpt=$(AppPath)
+H:\Work Area\3rd Year BCIS\Tanju\Source\Income.rpt=$(AppPath)
+H:\Work Area\3rd Year BCIS\Tanju\Source\IncomePie.rpt=$(AppPath)
+H:\Work Area\3rd Year BCIS\Tanju\Source\Salary.rpt=$(AppPath)
+H:\Work Area\3rd Year BCIS\Tanju\Source\Suppliers.rpt=$(AppPath)
+H:\Work Area\3rd Year BCIS\Tanju\Source\TopBuyer.rpt=$(AppPath)
+H:\Work Area\3rd Year BCIS\Tanju\Source\TopSupplier.rpt=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\AK_INV.exe=$(AppPath)
+C:\Work Area\New Alkhayaam\Dlls Req\unicows.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\crtowords_en.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\ufmanager.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2l2000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lcom.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2ldts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lexch.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u2lfinra.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u252000.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u25dts.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\u25samp1.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\sscsdk80.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\Implode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\crqe.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crdb_ado.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crdb_dao.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crdb_odbc.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\querybuilder.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\exlate32.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_rtf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\ExportModeller.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program Files\Common Files\Crystal Decisions\2.0\bin\crtslv.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_wordw.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_xls.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\crxf_pdf.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Work Area\New Alkhayaam\Dlls Req\u2fcr.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Work Area\New Alkhayaam\Dlls Req\u2fsepv.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\u2ftext.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Work Area\New Alkhayaam\Dlls Req\u2fxml.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\u2ddisk.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Work Area\New Alkhayaam\Dlls Req\u2dpost.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\Work Area\New Alkhayaam\Dlls Req\u2dapp.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+\Program files\common files\Crystal Decisions\2.0\bin\keycode.dll=$(CommonFiles)\Crystal Decisions\2.0\bin
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\Work Area\New Alkhayaam\Source\cursor.ani=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Customer.rpt=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\CustomerAcct.rpt=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Invoice.rpt=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Purchase_Order.rpt=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Receivings.rpt=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Sales.rpt=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Stock.rpt=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Supplier.rpt=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\SupplierAcct.rpt=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Memory  Cleaner.exe=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\DUAS.EXE=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Download.bat=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Home.bat=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Upload.bat=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Expense.rpt=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\GSaleInv.rpt=$(AppPath)
+C:\Work Area\New Alkhayaam\Source\Income.rpt=$(AppPath)
+
+[Package|Standard Setup Package|Configure Shared Files]
+Applicable=Yes
+F:\Work Area\Today\MDC\MDC VB MySQL CR9\MDC.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+F:\Work Area\Today\MDC\MDC VB MySQL CR9\RptInv.rpt=No
+H:\MDC\MDC VB MySQL CR9\MDC.exe=No
+H:\MDC\MDC VB MySQL CR9\RptInv.rpt=No
+H:\Work Area\3rd Year BCIS\Tanju\Source\ASDSS.exe=No
+I:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+H:\Work Area\3rd Year BCIS\Tanju\Source\Attendance.rpt=No
+H:\Work Area\3rd Year BCIS\Tanju\Source\Buyer.rpt=No
+H:\Work Area\3rd Year BCIS\Tanju\Source\Employees.rpt=No
+H:\Work Area\3rd Year BCIS\Tanju\Source\Expenditure.rpt=No
+H:\Work Area\3rd Year BCIS\Tanju\Source\ExpPie.rpt=No
+H:\Work Area\3rd Year BCIS\Tanju\Source\Income.rpt=No
+H:\Work Area\3rd Year BCIS\Tanju\Source\IncomePie.rpt=No
+H:\Work Area\3rd Year BCIS\Tanju\Source\Salary.rpt=No
+H:\Work Area\3rd Year BCIS\Tanju\Source\Suppliers.rpt=No
+H:\Work Area\3rd Year BCIS\Tanju\Source\TopBuyer.rpt=No
+H:\Work Area\3rd Year BCIS\Tanju\Source\TopSupplier.rpt=No
+C:\Work Area\New Alkhayaam\Source\AK_INV.exe=No
+C:\Work Area\New Alkhayaam\Source\cursor.ani=No
+C:\Work Area\New Alkhayaam\Source\Customer.rpt=No
+C:\Work Area\New Alkhayaam\Source\CustomerAcct.rpt=No
+C:\Work Area\New Alkhayaam\Source\Invoice.rpt=No
+C:\Work Area\New Alkhayaam\Source\Purchase_Order.rpt=No
+C:\Work Area\New Alkhayaam\Source\Receivings.rpt=No
+C:\Work Area\New Alkhayaam\Source\Sales.rpt=No
+C:\Work Area\New Alkhayaam\Source\Stock.rpt=No
+C:\Work Area\New Alkhayaam\Source\Supplier.rpt=No
+C:\Work Area\New Alkhayaam\Source\SupplierAcct.rpt=No
+C:\Work Area\New Alkhayaam\Source\Memory  Cleaner.exe=No
+C:\Work Area\New Alkhayaam\Source\DUAS.EXE=No
+C:\Work Area\New Alkhayaam\Source\Download.bat=No
+C:\Work Area\New Alkhayaam\Source\Home.bat=No
+C:\Work Area\New Alkhayaam\Source\Upload.bat=No
+C:\Work Area\New Alkhayaam\Source\Expense.rpt=No
+C:\Work Area\New Alkhayaam\Source\GSaleInv.rpt=No
+C:\Work Area\New Alkhayaam\Source\Income.rpt=No
+
+[Package|Standard Setup Package|Distribution]
+Type=single
+Size=
+Title=New Alkhayaam Inventory
+
+[Package|Standard Setup Package|Package]
+PackageFolder=C:\Work Area\New Alkhayaam\Setup
+ProjectFolder=C:\Work Area\New Alkhayaam\Source
+ServerSideCab=
+File1=C:\Work Area\New Alkhayaam\Setup\setup.exe
+File2=C:\Work Area\New Alkhayaam\Setup\Setup.Lst
+File3=C:\Work Area\New Alkhayaam\Setup\AK_INV.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package|IconGroups]
+Group0=Stock Inventory
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package|Stock Inventory]
+Icon1=AK_INV.exe
+Title1=AK_Inventory
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Download.bat
+Title2=Backup Database
+StartIn2=$(AppPath)
+Key2=Icon2
+Icon3=Upload.bat
+Title3=Restore Database
+StartIn3=$(AppPath)
+Key3=Icon3
+Icon4=DUAS.EXE
+Title4=Duas
+StartIn4=$(AppPath)
+Key4=Icon4
+Icon5=AK_INV.exe
+Title5=Memory Cleaner
+StartIn5=$(AppPath)
+Key5=Icon5
